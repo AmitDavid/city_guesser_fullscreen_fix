@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "City Guesser Fullscreen FIx",
+  "version": "1.0.0",
+
+  "description": "Fix video zoomed in while using full screen (F11)",
+  "homepage_url": "https://github.com/amitDavid/mistype_language_switcher",
+
+  "icons": {
+    "16": "MapPin.svg",
+    "32": "MapPin.svg",
+    "48": "MapPin.svg",
+    "64": "MapPin.svg",
+    "96": "MapPin.svg"
+  },
+
+  "content_scripts": [
+  {
+    "matches": ["*://*.virtualvacation.us/*"],
+    "css": ["fix.css"]
+  }
+]
+}
