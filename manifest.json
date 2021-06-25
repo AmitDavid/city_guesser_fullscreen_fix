@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "City Guesser Fullscreen Fix",
-  "version": "1.0.0",
+  "version": "1.0.2",
 
   "description": "Fix video zoomed in while using full screen (F11)",
   "homepage_url": "https://github.com/AmitDavid/city_guesser_fullscreen_fix",
