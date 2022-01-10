@@ -4,7 +4,7 @@
     left: 0 !important;
   }
   
-  #vid-bac > p {
+  #vid-bac > p, #new-back-btn-time, #new-back-btn-round, #new-back-btn9 {
     transform : translateY(60px);
   }
   
@@ -13,6 +13,6 @@
   }
 }
 
-#vid-bac > p {
+#vid-bac > p, #new-back-btn-time, #new-back-btn-round, #new-back-btn9 {
   transition: transform 1.2s ease-in-out;
 }
